@@ -41,7 +41,7 @@ kedro run
 * Run kedro test
 
 ```shell
-kedro run test
+pytest
 ```
 
 * Visualize the project
