@@ -20,6 +20,7 @@ pytest = "~=7.2"
 
 [dev-packages]
 kedro-viz = "*"
+tox = "*"
 
 [requires]
 python_version = "3.8"
