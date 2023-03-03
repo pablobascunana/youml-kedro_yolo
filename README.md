@@ -38,10 +38,15 @@ pipenv install
 kedro run
 ```
 
-* Run kedro test
+* To run kedro test
 
 ```shell
 pytest
+```
+* To run tests with coverage in XML for Codacy
+
+```shell
+pytest src/tests --cov=src --cov-config=.coveragerc --cov-report=xml:coverage-reports/coverage.xml
 ```
 
 * Visualize the project
