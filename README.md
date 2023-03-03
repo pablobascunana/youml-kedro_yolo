@@ -8,23 +8,23 @@ Take a look at the [Kedro documentation](https://kedro.readthedocs.io) to get st
 
 ## Dependencies
 
-*  Python >= 3.8
+*   Python >= 3.8
 
 ## Installation
 
-* Create virtual environment
+*   Create virtual environment
 
 ```shell
 python3 -m venv <venv name>
 ```
 
-* Install pipenv
+*   Install pipenv
 
 ```shell
 pip install pipenv
 ```
 
-* Install dependencies
+*   Install dependencies
 
 ```shell
 pipenv install
@@ -32,43 +32,44 @@ pipenv install
 
 ## To start Kedro project
 
-* Run kedro project
+*   Run kedro project
 
 ```shell
 kedro run
 ```
 
-* To run kedro test
+*   To run kedro test
 
 ```shell
 pytest
 ```
-* To run tests with coverage in XML for Codacy
+*   To run tests with coverage in XML for Codacy
 
 ```shell
 pytest src/tests --cov=src --cov-config=.coveragerc --cov-report=xml:coverage-reports/coverage.xml
 ```
 
-* Visualize the project
+*   Visualize the project
+
 ```shell
 kedro viz
 ```
 
 ## To create a new pipeline
 
-* Generate a new pipeline template
+*   Generate a new pipeline template
 
 ```shell
 kedro pipeline create <PIPELINE_NAME>
 ```
 
-* To run a Kedro node by node name
+*   To run a Kedro node by node name
 
 ```shell
 kedro run --nodes=preprocess_companies_node
 ```
 
-* To run a Kedro pipeline by catalog name
+*   To run a Kedro pipeline by catalog name
 
 ```shell
 kedro run --pipeline=data_science
