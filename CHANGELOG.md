@@ -2,7 +2,7 @@
 
 All notable changes will be documented in this file
 
-## [0.0.1](https://github.com/pablobascunana/youml-kedro_yolo/compare/3684ad2...) (WIP)
+## [0.0.1](https://github.com/pablobascunana/youml-kedro_yolo/compare/3684ad2...develop) (WIP)
 
 ### Added
 * [PR-5](https://github.com/pablobascunana/youml-kedro_yolo/pull/5) Add Dependabot configuration
